@@ -17,7 +17,8 @@ def point_in_circle(x, y, radius=1):
     True
 
     """
-    ...
+    if x**2 + y **2 <= radius:
+        return True
 
 def calculate_pi_timeit(points):
     """
